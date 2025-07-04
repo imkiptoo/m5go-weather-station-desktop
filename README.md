@@ -11,6 +11,34 @@ A modern desktop application for managing and monitoring your IoT weather statio
 - **Alert System**: Send alerts and notifications to your weather station
 - **Data Visualization**: View current conditions, forecasts, and sensor data
 
+## Screenshots
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+*Main dashboard showing weather station status and sensor data*
+
+### Weather API
+![Weather API](screenshots/weather-api.png)
+*Weather API configuration and data fetching interface*
+
+### MQTT Control
+![MQTT Control](screenshots/mqtt-control.png)
+*MQTT connection monitoring and control panel*
+
+### Settings
+![Settings Page 1](screenshots/settings-1.png)
+*General settings and MQTT configuration*
+
+![Settings Page 2](screenshots/settings-2.png)
+*Weather API settings and location configuration*
+
+### Alerts
+![Quick Alerts](screenshots/quick-alerts.png)
+*Quick alert sending interface*
+
+![Custom Alerts](screenshots/alerts-custom.png)
+*Custom alert configuration panel*
+
 ## Architecture
 
 ### Backend (Rust)
