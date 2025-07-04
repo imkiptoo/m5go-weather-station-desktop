@@ -4,7 +4,7 @@
   import WeatherCard from '$lib/WeatherCard.svelte';
   import { onMount } from 'svelte';
 
-  let apiKey = '959aa734172f631b6ceb521badee9dbf'; // Hard-coded in Rust backend
+  let apiKey = 'API_KEY_HERE'; // Hard-coded in Rust backend
   let latitude = 48.7758;
   let longitude = 9.1829;
   let isLoading = false;
@@ -124,7 +124,7 @@
             placeholder="API key configured in backend"
           />
           <p class="text-xs text-gray-500 mt-1">
-            API key (959aa734172f631b6ceb521badee9dbf) is hard-coded in the Rust backend
+            API key (API_KEY_HERE) is hard-coded in the Rust backend
           </p>
         </div>
 

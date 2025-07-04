@@ -8,7 +8,7 @@ use serde::{Serialize, Deserialize};
 use std::fs;
 use std::path::PathBuf;
 
-const OPENWEATHERMAP_API_KEY: &str = "959aa734172f631b6ceb521badee9dbf";
+const OPENWEATHERMAP_API_KEY: &str = "API_KEY_HERE";
 const CACHE_FILE_NAME: &str = "weather_cache.json";
 
 #[derive(Serialize, Deserialize, Clone, Debug)]

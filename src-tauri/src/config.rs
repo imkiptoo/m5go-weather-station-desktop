@@ -63,7 +63,7 @@ impl Default for MqttSettings {
 impl Default for WeatherApiSettings {
     fn default() -> Self {
         Self {
-            api_key: "959aa734172f631b6ceb521badee9dbf".to_string(),
+            api_key: "API_KEY_HERE".to_string(),
             latitude: 48.7758,
             longitude: 9.1829,
             auto_fetch_interval_minutes: 30,
